@@ -1,0 +1,26 @@
+package com;
+
+
+class Bike1{
+	int x=1;
+
+	public Bike1() {
+		System.out.println(x);
+	}
+	 
+}
+}
+public class SimpleConstructor {
+	int x;
+	public SimpleConstructor() {
+		x=5;
+	}
+
+	public static void main(String[] args) {
+		Bike1 b1= new Bike1();
+		
+		
+
+	}
+
+}

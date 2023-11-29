@@ -1,0 +1,16 @@
+package com;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		String[] cars;
+		String[] bike= {"pulser","apache","tvs"};
+		int[] a=new int[3];
+		a[0]=1;
+		a[1]=2;
+		a[2]=3;
+		System.out.println(a.length);
+
+	}
+
+}

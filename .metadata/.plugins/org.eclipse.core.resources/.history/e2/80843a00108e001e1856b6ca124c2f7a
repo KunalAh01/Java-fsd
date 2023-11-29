@@ -1,0 +1,14 @@
+package Builder;
+
+public class Stringbuilder {
+
+	public static void main(String[] args) {
+		String s1[]= {"name","class","section"};
+		StringBuilder sb=new StringBuilder();
+		sb.append(s1[0] +" ");
+		sb.append(s1[1] +" ");
+		System.out.println(sb.toString());
+
+	}
+
+}
